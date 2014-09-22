@@ -49,11 +49,11 @@
           </div>
 
           <div class="inner cover">
-            <div class="circles"><img src="resources/dinojerr.jpg" alt="" width="250px" height="250px" /></div>
+            <div class="circles"><img src="resources/dinojerr.jpg" alt="" width="250px" height="250px" id="profilePic" /></div>
             <h1 class="cover-heading">Hello World!</h1>
             <p class="lead">Jerry Lung. 4th year. Computer Science. UC Berkeley. </p>
             <p class="lead">
-              <a href="resources/resume_tech_1-14v.pdf" class="btn btn-lg btn-default">Resume</a>
+              <a href="resources/resume_tech_1-14v.pdf" class="btn btn-lg btn-default" onmouseover="changePic()" onmouseout="normalPic()">Resume</a>
             </p>
           </div>
 
@@ -78,5 +78,15 @@
     <script src="../../assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+            <script type="text/javascript">
+            function changePic() {
+              document.getElementById("profilePic").src = "resources/kubrick.jpg";
+            }
+
+            function normalPic() {
+              document.getElementById("profilePic").src = "resources/dinojerr.jpg";
+            }
+            </script>
   </body>
 </html>
