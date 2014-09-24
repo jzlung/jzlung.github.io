@@ -120,7 +120,7 @@ body {
 .circles img {
   width:200px;
   height:200px;
-  border-radius:50px;
+  border-radius:200px;
   -webkit-border-radius:200px;
   -moz-border-radius:200px;
   background:url(resources/dinojerr.jpg) no-repeat;
