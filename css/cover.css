@@ -126,6 +126,9 @@ body {
   background:url(resources/dinojerr.jpg) no-repeat;
 }
 
+#codifica {
+  text-align: left;
+}
 /*
  * Footer
  */
