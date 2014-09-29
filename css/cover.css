@@ -135,6 +135,9 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+#link {
+  color: #0645AD;
+}
 
 /*
  * Affix and center
