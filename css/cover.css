@@ -126,9 +126,19 @@ body {
   background:url(resources/dinojerr.jpg) no-repeat;
 }
 
+.inner-cover {
+  padding: 20px;
+}
+
 #codifica {
   text-align: left;
 }
+
+.entry {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*
  * Footer
  */
