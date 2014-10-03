@@ -135,6 +135,9 @@ body {
 
 #codifica {
   text-align: left;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;  
 }
 
 .entry {
