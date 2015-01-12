@@ -11,7 +11,6 @@ $(window).scroll(function(){
 });
 
 
-<script type="text/javascript">
 function changePic() {
   document.getElementById("profilePic").src = "resources/kubrick.jpg";
 }
@@ -19,4 +18,4 @@ function changePic() {
 function normalPic() {
   document.getElementById("profilePic").src = "resources/dinojerr.jpg";
 }
-</script>
+
