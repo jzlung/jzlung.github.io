@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jerry Lung</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/test.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="cover">
+
+      <section id="main" class="content">
+        <div class="container" id="container-main">
+          <div class="circles"><img src="resources/dinojerr.jpg" id="profilePic" /></div>
+          <h1 class="cover-heading">Jerry Lung</h1>
+            <p id="tagline">UC Berkeley. 4th year. Web Developer. Software Engineer. Nerd.</p>
+            <p id="btn-get-resume">
+              <a href="resources/resume_tech_1-14r.pdf" class="btn btn-lg btn-default" onmouseover="changePic()" onmouseout="normalPic()">getResume()</a>
+            </p>
+
+          <div class="mastfoot">
+ <!--              <p>Connect with me at <strong>jerry.lung</strong> @ <strong>berkeley</strong> dot <strong>edu</strong> and on <a href="http://www.linkedin.com/in/jerrylung">LinkedIn</a>.</p> -->
+              <ul id="links">
+                <!-- TODO: EMAIL -->
+                <li><a href="#"><img src="resources/mail.jpg" /></a></li>
+                <li><a href="http://github.com/jzlung"><img src="resources/git.png" /></a></li>
+                <li><a href="http://www.linkedin.com/in/jerrylung"><img src="resources/linkedin.png" /></a></li>
+              </ul>
+          </div>
+
+          </div>
+      </section>
+
+      <div id="projects" class="content">
+        <div class="container" id="container-projects">
+          <p>This is the projects content, and should appear just after the main section <strong>only when you scroll down</strong>.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+            <script type="text/javascript">
+            function changePic() {
+              document.getElementById("profilePic").src = "resources/kubrick.jpg";
+            }
+
+            function normalPic() {
+              document.getElementById("profilePic").src = "resources/dinojerr.jpg";
+            }
+            </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55628409-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- <br></br><br></br><br></br><br></br><br></br><br></br><br></br> -->
+  </body>
+</html>
