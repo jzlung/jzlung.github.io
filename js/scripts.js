@@ -5,8 +5,13 @@ $(window).scroll(function(){
 	console.log($(document).scrollTop());
   if ($(document).scrollTop() <= 200) {
     $('#main').removeClass('invisible');
+    $('#projects').addClass('invisible');
   } else {
     $('#main').addClass('invisible');
+  } 
+
+  if ($(document).scrollTop() >= 450) {
+    $('#projects').removeClass('invisible');
   }
 });
 
