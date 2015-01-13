@@ -41,7 +41,7 @@
                 <li><a href="http://github.com/jzlung"><img src="resources/git.png" /></a></li>
                 <li><a href="http://www.linkedin.com/in/jerrylung"><img src="resources/linkedin.png" /></a></li> -->
 
-                <li><a href="#" style="font-family: Entypo; font-size: 80px">&#9993;</a></li>
+                <li><a href="#contact" style="font-family: Entypo; font-size: 80px" id="go-to-contact">&#9993;</a></li>
                 <li><a href="http://github.com/jzlung">&#62209;</a></li>
                 <li><a href="http://www.linkedin.com/in/jerrylung">&#62233;</a></li>
               </ul>
@@ -69,15 +69,14 @@
           <p>This is the <strong>contact section</strong>.</p>
           <p style="font-size: 25px">Connect with me at <strong>jerry.lung</strong> @ <strong>berkeley</strong> dot <strong>edu</strong> and on <a href="http://www.linkedin.com/in/jerrylung">LinkedIn</a>.</p>
           <div class="form-contact">
-            <form method="post" name="contact_form" action="js/contact-form-handler.php">
-              Your Name: <input type="text" name="name">
-              <br>
-              Email Address: <input type="text" name="email">
-              <br>
-              Message: <textarea name="message"></textarea>
-           
-              <input type="submit" value="Submit">
-            </form> 
+            <form action="contact.php" method="post">
+              Your name <input type="text" name="cf_name"><br>
+              Your e-mail <input type="text" name="cf_email"><br>
+              Message<br>
+              <textarea name="cf_message"></textarea>
+              <input type="submit" value="Send">
+              <input type="reset" value="Clear">
+            </form>
           </div>
         </div>
 
