@@ -64,12 +64,18 @@
       <div class="divider"></div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
+<?php
+  if (!empty($_GET['act'])) {
+    echo "Hello world!"; //Your code here
+  } else {
+?>
+
       <section id="contact" class="content">
         <div class="container" id="container-projects">
           <p>This is the <strong>contact section</strong>.</p>
           <p style="font-size: 25px">Connect with me at <strong>jerry.lung</strong> @ <strong>berkeley</strong> dot <strong>edu</strong> and on <a href="http://www.linkedin.com/in/jerrylung">LinkedIn</a>.</p>
           <div class="form-contact">
-            <form action="contact.php" method="post">
+            <form action="test.php" method="post">
               Your name <input type="text" name="cf_name"><br>
               Your e-mail <input type="text" name="cf_email"><br>
               Message<br>
