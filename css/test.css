@@ -2,10 +2,23 @@
 
 /* IMPORT */
 
-@font-face{
+@font-face {
     font-family: "Hectic-Regular";
     src: url('../resources/hectic.regular.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: "Entypo-Social";
+	src: url('../resources/entypo/@font-face/EntypoSocial@font-face/entypo-social.ttf');
+}
+
+@font-face {
+	font-family: "Entypo";
+	src: url('../resources/entypo/@font-face/Entypo@font-face/entypo.ttf');
+}
+
+
+
 
 html, 
 body{
@@ -33,6 +46,16 @@ body {
 	height: 100%;
 	width: 100%;
   	display: table;
+}
+
+.divider {
+	border-top-color: rgb(160, 175, 187);
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(61, 70, 77);
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -70,18 +93,23 @@ body {
   border-radius:200px;
   -webkit-border-radius:200px;
   -moz-border-radius:200px;
-  background:url(resources/dinojerr.jpg) no-repeat;
+  background:url(resources/kubrick.jpg) no-repeat;
+}
+
+#btn-get-resume {
+	margin-bottom: 0;
 }
 
 .mastfoot {
-	font-size: 15px;
+	text-decoration: none;
 }
 
 #links {
 	padding:0;
 	margin:0;
 	white-space: nowrap;
-	list-style-type:none;
+	list-style-type: none;
+	font-family: Entypo-Social;
 }
 
 #links li {
@@ -97,6 +125,11 @@ body {
 	width: 75px;
 }
 
+#links li a {
+	font-size: 75px;
+	text-decoration: none;
+	height: 12px;
+}
 
 
 
@@ -123,7 +156,13 @@ body {
  ************** CONTACT *******************
  ********************************************************************************/
 
-
+.form-contact {
+	background-color: #333;
+	width: 40%;
+	height: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 
 
