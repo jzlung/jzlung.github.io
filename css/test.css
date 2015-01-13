@@ -1,12 +1,13 @@
 /* CSS for Jerry Lung's website <www.jerrylung.com> */
 
-/* IMPORT */
+/**************************** IMPORT ********************************/
 
 @font-face {
     font-family: "Hectic-Regular";
     src: url('../resources/hectic.regular.ttf') format('truetype');
 }
 
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
 @font-face {
 	font-family: "Entypo-Social";
 	src: url('../resources/entypo/@font-face/EntypoSocial@font-face/entypo-social.ttf');
@@ -18,7 +19,7 @@
 }
 
 
-
+/**************************** BASE ********************************/
 
 html, 
 body{
@@ -29,6 +30,7 @@ body{
   /*background-color: #458B00; /*chartreuse*/
   font-family: Helvetica;
 }
+
 body {
   /*color: #fff;*/
   text-align: center;
@@ -79,12 +81,13 @@ body {
 
 .cover-heading {
 	font-family: Hectic-Regular;
-	font-size: 40px;
+	font-size: 45px;
 	margin: 3%;
 }
 
 #tagline {
 	font-family: Hectic-Regular;
+	font-size: 21px;
 }
 
 .circles img {
@@ -132,23 +135,43 @@ body {
 }
 
 
-
-
-
-
 /********************************************************************************
  ************** PROJECTS *******************
  ********************************************************************************/
 
 #projects {
 	/*background-color: #458B00;*/
-
   transition: all 0.5s ease-in-out;
 }
 
 #container-projects {
 	font-family: Hectic-Regular;
 	font-size: 50px;
+}
+
+.project {
+	padding: 100px;
+	display: table;
+}
+
+.project-image, .project-text {
+	display: table-cell;
+	width: 50%;
+}
+
+.project-text {
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.project-text h1 {
+	font-size: 40px;
+}
+
+.project-image img {
+	width: 80%;
+	border: 3px solid;
+  	/*border-radius: 4px;*/
 }
 
 
@@ -182,13 +205,6 @@ body {
 	opacity: 0;
 	transition: visibility 0s 2s, opacity 2s linear;
 }
-
-
-
-
-
-
-
 
 
 /******************************************
