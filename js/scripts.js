@@ -11,13 +11,13 @@ function scrollPercent(){
 }
 
 // Set all divs to be invisible, revealed only by scrolls
-$('#projects').addClass('invisible');
-$('#contact').addClass('invisible');
-// $('#projects').addClass('invisible');
+$('.projects').addClass('invisible');
+$('.contact').addClass('invisible');
+// $('.projects').addClass('invisible');
 
 // Start the page with a fade-in
 setTimeout(function() {
-  $('#main').removeClass('invisible');
+  $('.main').removeClass('invisible');
 }, 500);
 
 $(window).scroll(function(){
@@ -26,11 +26,11 @@ $(window).scroll(function(){
   console.log(scroll);
 
   if (scroll >= 1/numSections) {
-    $('#projects').removeClass('invisible');
+    $('.projects').removeClass('invisible');
   }
 
-  if (scroll >= 2/numSections) {
-    $('#contact').removeClass('invisible');
+  if (scroll >= numSections/numSections - 0.1) {
+    $('.contact').removeClass('invisible');
   }
 
 });
@@ -45,8 +45,8 @@ function normalPic() {
 }
 
 
-$("#go-to-contact").click(function() {
+$(".go-to-contact").click(function() {
     $('html, body').animate({
-        scrollTop: $("#contact").offset().top
+        scrollTop: $(".contact").offset().top
     }, 1000);
 });

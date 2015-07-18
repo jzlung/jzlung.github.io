@@ -67,7 +67,7 @@ body {
  ********************************************************************************/
 
 /* TODO: Add min-height; */
-#main {
+.main {
   height:100%;
   width: 50%;
   margin-right: auto;
@@ -86,7 +86,7 @@ body {
 	margin: 3%;
 }
 
-#tagline {
+.tagline {
 	font-family: Hectic-Regular;
 	font-size: 21px;
 }
@@ -100,7 +100,7 @@ body {
   background:url(resources/kubrick.jpg) no-repeat;
 }
 
-#btn-get-resume {
+.btn-get-resume {
 	margin-bottom: 0;
 }
 
@@ -108,7 +108,7 @@ body {
 	text-decoration: none;
 }
 
-#links {
+.links {
 	padding:0;
 	margin:0;
 	white-space: nowrap;
@@ -116,20 +116,20 @@ body {
 	font-family: Entypo-Social;
 }
 
-#links li {
+.links li {
 	display:inline;
 	opacity: 0.2;
 }
 
-#links li:hover {
+.links li:hover {
 	opacity: 1;
 }
 
-#links li img {
+.links li img {
 	width: 75px;
 }
 
-#links li a {
+.links li a {
 	font-size: 75px;
 	text-decoration: none;
 	height: 12px;
@@ -140,12 +140,12 @@ body {
  ************** PROJECTS *******************
  ********************************************************************************/
 
-#projects {
+.projects {
 	/*background-color: #458B00;*/
   transition: all 0.5s ease-in-out;
 }
 
-#container-projects {
+.container-projects {
 	font-family: Hectic-Regular;
 	font-size: 50px;
 }
