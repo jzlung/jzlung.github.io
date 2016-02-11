@@ -28,9 +28,9 @@
         <div class="container container-main">
           <div class="circles"><img src="resources/kubrick.jpg" id="profilePic" /></div>
           <h1 class="cover-heading">Jerry Lung</h1>
-            <p class="tagline">Software Engineer. Currently at IXL Learning. UC Berkeley grad. This is my website.</p>
+            <p class="tagline">UC Berkeley. 4th year. Web Developer. This is my website.</p>
             <p class="btn-get-resume">
-              <a href="resources/lung_jerry_resume_4-25n.pdf" class="btn btn-lg btn-default" onmouseover="changePic()" onmouseout="normalPic()">getResume()</a>
+              <a href="resources/lung_jerry_resume_4-25o.pdf" class="btn btn-lg btn-default" onmouseover="changePic()" onmouseout="normalPic()">getResume()</a>
             </p>
 
           <div class="mastfoot">
