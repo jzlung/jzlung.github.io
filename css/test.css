@@ -86,7 +86,7 @@ body {
 	margin: 3%;
 }
 
-.tagline {
+.tagline, .lets-connect {
 	font-family: Hectic-Regular;
 	font-size: 21px;
 }
